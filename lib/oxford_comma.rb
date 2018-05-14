@@ -4,6 +4,7 @@ def oxford_comma(array)
     oxford << el + ", "
       when idx == -2
         oxford << el + "and #{el[idx-1]}"
+      end  
   end  
   oxford
 end
