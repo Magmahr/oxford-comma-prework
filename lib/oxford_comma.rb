@@ -1,5 +1,6 @@
 def oxford_comma(array)
   oxford = ""
+  array.join(", ")
   array.each_with_index do |el, idx|
     oxford << el + ", "
       if idx == idx[-2]
