@@ -5,6 +5,6 @@ def oxford_comma(array)
     oxford << array[position] + ", "
     position += 1
   end  
-  oxford << array[-2] + " and " + array[-1]
+  oxford << array[-2] + ", and " + array[-1]
   oxford
 end
